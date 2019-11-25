@@ -12,26 +12,26 @@ npm install vue-awescode-select
 ## Usage
 ```
 <template>
- 	<vue-awescode-select 
-		v-model="value"
-		:options="options"
-	/>
+  <vue-awescode-select 
+	  v-model="value"
+	  :options="options"
+  />
 </template>
 
 <script>
 import VueAwescodeSelect from 'vue-awescode-select'
 
 export default {
-	components: {
-			VueAwescodeSelect,
-	},
-	data: () => ({
-		value: null,
-		options: [
-			{ text: 'Option 1', value: 1 },
-			{ text: 'Option 2', value: 2 },
-		],
-	}),
+  components: {
+    VueAwescodeSelect,
+  },
+  data: () => ({
+    value: null,
+    options: [
+      { text: 'Option 1', value: 1 },
+      { text: 'Option 2', value: 2 },
+    ],
+  }),
 };
 </script>
 ```
