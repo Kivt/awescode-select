@@ -10,6 +10,14 @@ npm install vue-awescode-select
 ```
 
 ## Usage
+To use component globally
+```js
+import vue from 'vue';
+import VueAwescodeSelect from 'vue-awescode-select';
+Vue.use(VueAwescodeSelect);
+```
+
+Or you can use locally inside your component
 ```
 <template>
   <vue-awescode-select 
@@ -19,7 +27,7 @@ npm install vue-awescode-select
 </template>
 
 <script>
-import VueAwescodeSelect from 'vue-awescode-select'
+import VueAwescodeSelect from 'vue-awescode-select';
 
 export default {
   components: {
