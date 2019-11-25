@@ -13,9 +13,9 @@ npm install vue-awescode-select
 ```
 <template>
  	<vue-awescode-select 
-    	v-model="value"
-        :options="options"
-    />
+		v-model="value"
+		:options="options"
+	/>
 </template>
 
 <script>
@@ -28,11 +28,11 @@ export default {
 	data: () => ({
 		value: null,
 		options: [
-				{ text: 'Option 1', value: 1 },
-					{ text: 'Option 2', value: 2 },
-			],
+			{ text: 'Option 1', value: 1 },
+			{ text: 'Option 2', value: 2 },
+		],
 	}),
-}
+};
 </script>
 ```
 
