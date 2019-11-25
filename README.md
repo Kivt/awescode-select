@@ -29,7 +29,7 @@ export default {
     	value: null,
     	options: [
         	{ text: 'Option 1', value: 1 },
-            { text: 'Option 2', value: 2 },
+          	{ text: 'Option 2', value: 2 },
         ],
     }),
 }
