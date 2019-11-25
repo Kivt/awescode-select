@@ -109,7 +109,7 @@ export default {
     },
   },
 
-  created() {
+  mounted() {
     this.findCurrentValue();
   },
 
