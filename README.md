@@ -51,6 +51,7 @@ export default {
 | Prop  | Type  | Required  | Default  | Description  |
 |---|---|---|---|---|
 | options  | Array  | true  | -  | Dropdown options for select. Each object must contain next keys: ```text<String>``` and ```value<any>```    |
+| placeholder  | string  | false  | ''  | Placeholder for select |
 
 ### Events
 
