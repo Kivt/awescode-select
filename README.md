@@ -41,6 +41,18 @@ export default {
 </script>
 ```
 
+If you are using Nuxt.js you need to use transpile for this package  
+Inside `nuxt.config.js`
+
+```js
+export default {
+  // Your other settings
+  build: {
+    transpile: ['vue-awescode-select']
+  }
+}
+```
+
 ## API
 
 ### Props
