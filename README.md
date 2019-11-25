@@ -13,8 +13,8 @@ npm install vue-awescode-select
 ```
 <template>
   <vue-awescode-select 
-	  v-model="value"
-	  :options="options"
+    v-model="value"
+    :options="options"
   />
 </template>
 
