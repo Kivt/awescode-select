@@ -23,15 +23,15 @@ import VueAwescodeSelect from 'vue-awescode-select'
 
 export default {
 	components: {
-    	VueAwescodeSelect,
+			VueAwescodeSelect,
 	},
-    data: () => ({
-    	value: null,
-    	options: [
-        	{ text: 'Option 1', value: 1 },
-          	{ text: 'Option 2', value: 2 },
-        ],
-    }),
+	data: () => ({
+		value: null,
+		options: [
+				{ text: 'Option 1', value: 1 },
+					{ text: 'Option 2', value: 2 },
+			],
+	}),
 }
 </script>
 ```
