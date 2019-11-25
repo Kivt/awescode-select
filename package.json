@@ -3,6 +3,9 @@
   "version": "0.3.3",
   "private": false,
   "main": "./dist/vue-awescode-select.common.js",
+  "browser": {
+    "./sfc": "src/components/AwescodeSelect.vue"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Kivt/awescode-select"

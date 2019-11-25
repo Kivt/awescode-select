@@ -1,5 +1,7 @@
 # awescode-select
 
+Custom select built with Vue.js and Tailwind.css
+
 ## Demo
 To view demo examples locally clone the repo and run `npm install` and `npm run serve`  
 To run tests locally - `npm run test:unit`
