@@ -150,7 +150,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .pos-r {
   position: relative;
 }
@@ -161,10 +161,10 @@ export default {
   left: 0;
   transform: translateY(-50%);
   transition: transform .15s, font-size .15s;
+}
 
-  &.open {
-    transform: translateY(-100%);
-  }
+.helper-text.open {
+  transform: translateY(-100%);
 }
 
 .select-menu {
