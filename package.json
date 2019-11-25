@@ -1,6 +1,6 @@
 {
   "name": "vue-awescode-select",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "private": false,
   "main": "./dist/vue-awescode-select.common.js",
   "browser": {
