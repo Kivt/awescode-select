@@ -14,7 +14,7 @@ npm install vue-awescode-select
 ## Usage
 To use component globally
 ```js
-import vue from 'vue';
+import Vue from 'vue';
 import VueAwescodeSelect from 'vue-awescode-select';
 Vue.use(VueAwescodeSelect);
 ```
