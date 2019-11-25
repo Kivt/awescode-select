@@ -1,4 +1,4 @@
-import AwescodeSelect from './AwescodeSelect.vue';
+import AwescodeSelect from './src/components/AwescodeSelect.vue';
 
 // Register component
 export function install(Vue) {
