@@ -1,8 +1,8 @@
 # awescode-select
 
 ## Demo
-To view demo examples locally clone the repo and run ```npm install``` and ```npm run serve```  
-To run tests locally run ```npm run test:unit```
+To view demo examples locally clone the repo and run `npm install` and `npm run serve`  
+To run tests locally - `npm run test:unit`
 
 ## Installation
 ```
@@ -18,7 +18,7 @@ Vue.use(VueAwescodeSelect);
 ```
 
 Or you can use locally inside your component
-```
+```js
 <template>
   <vue-awescode-select 
     v-model="value"
