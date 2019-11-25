@@ -12,19 +12,14 @@ npm install vue-awescode-select
 ```
 
 ## Usage
-To use component globally
-```js
-import Vue from 'vue';
-import VueAwescodeSelect from 'vue-awescode-select';
-Vue.use(VueAwescodeSelect);
-```
 
-Or you can use locally inside your component
+Inside your component
 ```js
 <template>
   <vue-awescode-select 
     v-model="value"
     :options="options"
+    placeholder="Select"
   />
 </template>
 

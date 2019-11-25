@@ -21,4 +21,6 @@ if (GlobalVue) {
   GlobalVue.use(plugin);
 }
 
-export default AwescodeSelect;
+export {
+  AwescodeSelect,
+};
