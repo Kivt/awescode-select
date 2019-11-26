@@ -4,7 +4,7 @@ import VueAwescodeSelect from './src/components/VueAwescodeSelect.vue';
 export function install(Vue) {
   if (install.installed) return;
   install.installed = true;
-  Vue.component('AwescodeSelect', VueAwescodeSelect);
+  Vue.component('VueAwescodeSelect', VueAwescodeSelect);
 }
 
 const plugin = {
