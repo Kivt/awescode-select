@@ -1,5 +1,5 @@
 import { shallowMount } from '@vue/test-utils';
-import AwescodeSelect from '@/components/AwescodeSelect.vue';
+import VueAwescodeSelect from '@/components/VueAwescodeSelect.vue';
 
 describe('HelloWorld.vue', () => {
   let wrapper;
@@ -10,7 +10,7 @@ describe('HelloWorld.vue', () => {
   }));
 
   it('renders options when button clicked', () => {
-    wrapper = shallowMount(AwescodeSelect, {
+    wrapper = shallowMount(VueAwescodeSelect, {
       propsData: { options },
     });
     wrapper.find('button').trigger('click');
@@ -22,7 +22,7 @@ describe('HelloWorld.vue', () => {
       text: 'Item 3',
       value: 3,
     };
-    wrapper = shallowMount(AwescodeSelect, {
+    wrapper = shallowMount(VueAwescodeSelect, {
       propsData: {
         options,
         value,
