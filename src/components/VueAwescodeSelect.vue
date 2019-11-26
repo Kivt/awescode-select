@@ -35,7 +35,7 @@
       <li
         v-for="(item, index) in options"
         :key="index"
-        :class="{'bg-blue-100': activeItem === index}"
+        :class="{'bg-blue-100 list-item-active': activeItem === index}"
         class="py-1 px-3 cursor-pointer"
         @click="onListItemClick(index)"
         @mouseenter="onMouseEnter(index)"
@@ -50,7 +50,7 @@
 import selectMixin from './selectMixin';
 
 export default {
-  name: 'AwescodeSelect',
+  name: 'VueAwescodeSelect',
 
   mixins: [selectMixin],
 

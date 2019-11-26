@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="container mx-auto mt-6 px-3">
-      <awescode-select
+      <vue-awescode-select
         v-model="selectValue"
         :options="options"
         placeholder="Select"
@@ -11,13 +11,13 @@
 </template>
 
 <script>
-import AwescodeSelect from './components/AwescodeSelect.vue';
+import VueAwescodeSelect from './components/VueAwescodeSelect.vue';
 
 export default {
   name: 'app',
 
   components: {
-    AwescodeSelect,
+    VueAwescodeSelect,
   },
 
   data: () => ({

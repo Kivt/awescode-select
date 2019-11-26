@@ -28,17 +28,29 @@ export default {
     onArrowUp() {
       if (!this.activeItem) {
         this.activeItem = this.options.length - 1;
-        return;
+      } else {
+        this.activeItem -= 1;
       }
-      this.activeItem -= 1;
+      this.focusCurrentElement();
     },
 
     onArrowDown() {
       if (this.activeItem === null || this.activeItem === this.options.length - 1) {
         this.activeItem = 0;
-        return;
+      } else {
+        this.activeItem += 1;
       }
-      this.activeItem += 1;
+      this.focusCurrentElement();
+    },
+
+    focusCurrentElement() {
+      // Scroll to active list element
+      this.$nextTick(() => {
+        const el = document.querySelector('li.list-item-active');
+        el.scrollIntoView({
+          block: 'center',
+        });
+      });
     },
 
     onEnter() {

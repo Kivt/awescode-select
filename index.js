@@ -1,10 +1,10 @@
-import AwescodeSelect from './src/components/AwescodeSelect.vue';
+import VueAwescodeSelect from './src/components/VueAwescodeSelect.vue';
 
 // Register component
 export function install(Vue) {
   if (install.installed) return;
   install.installed = true;
-  Vue.component('VueAwescodeSelect', AwescodeSelect);
+  Vue.component('AwescodeSelect', VueAwescodeSelect);
 }
 
 const plugin = {
@@ -21,6 +21,4 @@ if (GlobalVue) {
   GlobalVue.use(plugin);
 }
 
-export {
-  AwescodeSelect,
-};
+export default VueAwescodeSelect;
