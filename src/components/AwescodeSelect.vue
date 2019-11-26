@@ -25,7 +25,7 @@
 
     <ul
       class="
-        select-menu w-full max-h-half-screen max-w-full overflow-y-auto z-2
+        select-menu w-full max-w-full overflow-y-auto z-2
         bg-white rounded-b list-none text-sm border py-2 border-gray-500
       "
       :class="{
@@ -169,6 +169,7 @@ export default {
 
 .select-menu {
   position: absolute;
+  max-height: 50vh;
   bottom: 3px;
   left: 0;
   transform: translateY(100%);
